@@ -1,30 +1,23 @@
 {
+  "$schema": "https://codesandbox.io/schemas/tasks.json",
+
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
-    "pip install -r requirements.txt",
+    "dotnet install",
     "cp -n .env.example .env"
   ],
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
     "start": {
       "name": "start",
-      "command": "python main.py",
+      "command": "dotnet run",
       "runAtStart": true,
       "restartOn": {
         "files": [
-          "main.py",
+          "Program.cs",
           ".env"
         ]
       }
     },
-    "install-dependencies": {
-      "name": "Installing Dependencies",
-      "command": "pip install -r requirements.txt",
-      "restartOn": {
-        "files": [
-          "requirements.txt"
-        ]
-      }
-    }
   }
 }
