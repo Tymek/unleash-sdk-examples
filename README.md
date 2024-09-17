@@ -1,5 +1,3 @@
 # Unleash SDK Examples
 
-<!-- TODO: > Link to `v1` -->
-
-<!-- TODO: Instructions -->
+Moved to https://github.com/Unleash/unleash-sdk-examples
