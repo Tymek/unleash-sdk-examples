@@ -1,6 +1,6 @@
 {
   "setupTasks": [
-    "dotnet install",
+    "dotnet restore",
     "cp -n .env.example .env"
   ],
   "tasks": {
