@@ -1,4 +1,4 @@
-# Python Starter
+# Unleash C# Starter
 
 [![Edit in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/Tymek/unleash-sdk-examples/tree/master/Csharp)
 
