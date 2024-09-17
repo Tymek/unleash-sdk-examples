@@ -1,9 +1,11 @@
 {
-  "name": "Devcontainer",
-  "image": "mcr.microsoft.com/devcontainers/python:3.8-bookworm",
+	"name": "C# (.NET)",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:1-9.0-bookworm-slim",
   "customizations": {
     "vscode": {
-      "extensions": ["ms-python.python"]
+      "extensions": [
+        "ms-dotnettools.csharp"
+      ]
     }
   }
 }
