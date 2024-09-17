@@ -28,7 +28,7 @@ public class Program
 
         var unleashFactory = new UnleashClientFactory();
 
-        DefaultUnleash unleash = (DefaultUnleash) await unleashFactory.CreateClientAsync(settings, synchronousInitialization: true);
+        var unleash =  await unleashFactory.CreateClientAsync(settings, synchronousInitialization: true);
 
         if (unleash.IsEnabled(flag))
         {
